@@ -19,7 +19,7 @@ Of all the 15 Assignment projecs this is the one project I spent a lot of time w
 ### Time Taken:
 Approx 11 hours
 
-#### Here is the link of live website: [Live Website]().
+#### Here is the link of live website: [Live Website](https://hosting-landing-vivekn.netlify.app/).
 
 #### Here are some screenshots of how webpage looks.
 ![img](./QuickLook/sec-1.png)
