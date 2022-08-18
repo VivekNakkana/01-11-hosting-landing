@@ -27,12 +27,15 @@
         </li>
       </ul>
     </div>
+    <div class="menu">
+      <i class="fa-solid fa-bars"></i>
+    </div>
   </nav>
   <main>
     <section class="sec-1">
       <div class="sec-11">
-        <h1>Great Websites Star <br> with Unlimited <br> Hosting</h1>
-        <p>We provide the best offer of unlimited web hosting. The most complete <br>features, affordable prices, and 24/7 technical support are at your <br> disposal</p>
+        <h1>Great Websites Star  with Unlimited Hosting</h1>
+        <p>We provide the best offer of unlimited web hosting. The most complete features, affordable prices, and 24/7 technical support are at your disposal</p>
         <button class="blue-btn">Choose Package</button>
       </div>
       <div class="sec-12">
@@ -68,13 +71,13 @@
     <section class="sec-4">
       <div class="sec-41">
         <h1>
-          Services We Provide <br>
+          Services We Provide
           At ThorHosting
         </h1>
       </div>
       <div>
         <p>
-          Contact Niagahoster's Customer Success agent at any time when there is a <br>problem with your website. No need to wait long, your problem will be <br>resolved quickly.
+          Contact Niagahoster's Customer Success agent at any time when there is a problem with your website. No need to wait long, your problem will be resolved quickly.
         </p>
       </div>
     </section>
@@ -263,5 +266,12 @@
       </div>
     </footer>
   </main>
+  <script>
+    const hamMenu = document.getElementsByClassName('menu')[0]
+    const menuList = document.getElementsByClassName('list')[0]
+    hamMenu.addEventListener('click', () => {
+        menuList.classList.toggle('nav-active')
+    })
+</script>
 </body>
 </html>
